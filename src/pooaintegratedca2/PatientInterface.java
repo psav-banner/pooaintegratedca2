@@ -32,7 +32,7 @@ public interface PatientInterface {
      * This will have a chance of causing the patient to need medication and/or surgery in this department.
      * @param department 
      */
-    public void transferDepartment(String department);
+    public void transferDepartment(String department);  
     
     /**
      * 
