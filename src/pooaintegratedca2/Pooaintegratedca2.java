@@ -41,10 +41,10 @@ public class Pooaintegratedca2 {
                
                Patient newpatient = new Patient(pName,pComp);
                
-                System.out.println("Patient Details " );
+               System.out.println("Patient Details " );
                System.out.println("New patient is: " + newpatient.getPatientName());
                System.out.println("PatientID: " + newpatient.getPatientId());
-               
+               System.out.println("Needs Medication: " + newpatient.isNeedsMedication());
                
                
                
