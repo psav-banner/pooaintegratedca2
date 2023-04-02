@@ -8,7 +8,7 @@ package pooaintegratedca2;
  *
  * @author psavage
  */
- class Patient PatientInterface {
+ class Patient implements PatientInterface {
     private String patientName;
     private int patientId;
     private boolean isInpatient;
@@ -30,6 +30,11 @@ package pooaintegratedca2;
         this.isInpatient = false;
         nextPatientId++;
         
+    }
+
+    @Override
+    public void dischargeInpatient() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     
