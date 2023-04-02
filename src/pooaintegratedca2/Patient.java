@@ -18,16 +18,12 @@ public class Patient {
     private String department;
     private String complaints;
 
-    
-    public Patient() {
-    }
-    
     //Create a constructor for new Patient. Inpatient status is set to False, Patient ID is set to the next partient ID number and we iterate the nextPatientId
    
-    public Patient(String patientName, boolean needsMedication, boolean needsSurgery, String complaints) {
+    public Patient(String patientName, String complaints) {
         this.patientName = patientName;
-        this.needsMedication = needsMedication;
-        this.needsSurgery = needsSurgery;
+        this.needsMedication = false;
+        this.needsSurgery = false;
         this.complaints = complaints;
         this.patientId = nextPatientId;
         this.isInpatient = false;
@@ -44,7 +40,7 @@ public class Patient {
         this.patientName = patientName;
     }
 
-  
+}
 
     
     
@@ -52,6 +48,6 @@ public class Patient {
     
  
 
-}
+
 
 
