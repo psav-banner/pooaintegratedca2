@@ -47,10 +47,8 @@ public class Pooaintegratedca2 {
                System.out.println("8. Pregnant");
                System.out.println("9. Emergency");
                String pComp = sc.nextLine();
-               
-               
-               boolean pSurg = sc.nextBoolean();
-               Patient newpatient = new Patient(pName,pMed,pSurg,pComp);
+                                   
+               Patient newpatient = new Patient(pName,pComp);
                System.out.println("New patient is: " + newpatient.getPatientName());
                
                break;
