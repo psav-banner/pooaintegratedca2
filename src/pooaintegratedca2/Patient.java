@@ -40,6 +40,23 @@ public class Patient {
         this.patientName = patientName;
     }
 
+    public int getPatientId() {
+        return patientId;
+    }
+
+    public boolean isIsInpatient() {
+        return isInpatient;
+    }
+
+    public boolean isNeedsMedication() {
+        return needsMedication;
+    }
+
+    public boolean isNeedsSurgery() {
+        return needsSurgery;
+    }
+    
+    
 }
 
     
