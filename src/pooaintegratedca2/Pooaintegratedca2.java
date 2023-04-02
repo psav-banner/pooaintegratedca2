@@ -52,6 +52,8 @@ public class Pooaintegratedca2 {
                System.out.println("New patient is: " + newpatient.getPatientName());
                
                
+               
+               
                break;
                
             case 2: 
